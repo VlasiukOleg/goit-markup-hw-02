@@ -1,9 +1,10 @@
 :root {
     --primary-text-color: #757575;
     --title-text-color: #212121;
-    --accent-text-color: #2196f3;
+    --accent-color: #2196f3;
     --bg-white-color: #ffffff;
-    --secondary-bg-color: #2f303a;
+    --primary-bg-color: #2f303a;
+    --secondary-bg-color: #f5f4fa;
 }
 
 body {
@@ -30,7 +31,7 @@ body {
 }
 
 .logo > .accent {
-    color: var(--accent-text-color);
+    color: var(--accent-color);
 }
 
 .site-nav .link {
@@ -43,18 +44,18 @@ body {
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-    color: var(--accent-text-color);
+    color: var(--accent-color);
 }
 
 .header-contacts .link:hover,
 .header-contacts .link:focus {
-    color: var(--accent-text-color);
+    color: var(--accent-color);
 }
 
 /* Section Hero */
 
 .hero {
-    background-color: var(--secondary-bg-color);
+    background-color: var(--primary-bg-color);
 }
 
 .hero .title {
@@ -73,10 +74,14 @@ body {
     color: var(--title-text-color);
 }
 
+.team {
+    background-color: var(--secondary-bg-color);
+}
+
 /* Footer */
 
 .footer {
-    background-color: var(--secondary-bg-color);
+    background-color: var(--primary-bg-color);
 }
 
 .footer-list .address {
@@ -97,19 +102,43 @@ body {
     color: var(--accent-text-color);
 }
 
+/* Portfolio */
+
+.portfolio-list .title {
+    color: var(--title-text-color);
+}
+
+.portfolio-button .button:hover,
+.portfolio-button .button:focus {
+    background-color: var(--accent-color);
+    color: var(--bg-white-color);
+}
+
 /* Button */
 
 .button {
     background-color: var(--bg-white-color);
     color: var(--title-text-color);
+    cursor: pointer;
 }
 
 .button.primary {
-    background-color: var(--accent-text-color);
+    background-color: var(--accent-color);
     color: var(--bg-white-color);
 }
 
-.button.primary {
-    background-color: var(--accent-text-color);
+.button.secondary {
+    background-color: var(--secondary-bg-color);
+    color: var(--title-text-color);
+}
+
+/* Active Page */
+.site-nav .current {
+    color: var(--accent-color);
+}
+
+/* Active button */
+.portfolio-button .current {
+    background-color: var(--accent-color);
     color: var(--bg-white-color);
 }
