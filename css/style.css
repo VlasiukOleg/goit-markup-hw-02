@@ -135,20 +135,20 @@ body {
     line-height: 1.71;
 }
 
-.footer-list .address {
-    color: var(--bg-white-color);
-
+.address {
     font-style: normal;
+}
+
+.footer-list .location {
+    color: var(--bg-white-color);
 }
 
 .footer-list .contacts {
     color: var(--footer-text-color);
-
-    font-style: normal;
 }
 
-.footer-list .address:hover,
-.footer-list .address:focus {
+.footer-list .location:hover,
+.footer-list .location:focus {
     color: var(--accent-color);
 }
 
