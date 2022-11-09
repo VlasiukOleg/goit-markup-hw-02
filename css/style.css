@@ -5,6 +5,7 @@
     --bg-white-color: #ffffff;
     --primary-bg-color: #2f303a;
     --secondary-bg-color: #f5f4fa;
+    --footer-text-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -136,10 +137,14 @@ body {
 
 .footer-list .address {
     color: var(--bg-white-color);
+
+    font-style: normal;
 }
 
 .footer-list .contacts {
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--footer-text-color);
+
+    font-style: normal;
 }
 
 .footer-list .address:hover,
