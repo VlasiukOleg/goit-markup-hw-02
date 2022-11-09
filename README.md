@@ -1,3 +1,3 @@
-# goit-markup-hw-01
-homework#1
-https://vlasiukoleg.github.io/goit-markup-hw-01/
+# goit-markup-hw-02
+homework#2
+https://vlasiukoleg.github.io/goit-markup-hw-02/
