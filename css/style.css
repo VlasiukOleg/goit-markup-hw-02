@@ -156,6 +156,16 @@ body {
 
 .portfolio-list .title {
     color: var(--title-text-color);
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.portfolio-list .text {
+    font-size: 16px;
+    line-height: 1.88;
 }
 
 .portfolio-button .button:hover,
@@ -187,6 +197,10 @@ body {
 .button.secondary {
     background-color: var(--secondary-bg-color);
     color: var(--title-text-color);
+
+    font-weight: 500;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
 }
 
 /* Active Page */
